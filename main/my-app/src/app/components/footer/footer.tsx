@@ -17,7 +17,7 @@ const footer = () => {
           <div className="Footer-two-one">
             <div className="Footer-two-name">
               <p>
-                Designed & Developed by Tadikonda Sai Manikanta. All rights
+                Designed & Developed by Pavan Karthik Mandadapu. All rights
                 reserved.
               </p>
             </div>
