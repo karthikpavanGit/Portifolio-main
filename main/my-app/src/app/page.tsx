@@ -11,6 +11,7 @@ import Card from "./UI/cards/Card";
 import Skills from "./UI/skills/Skill";
 import Youtube from "./UI/youtube/page";
 import Loader from "./Loader/page";
+import ExperienceSection from "./components/Experience/ExperienceSection"
 
 // import icons here
 import { IoDocumentTextOutline } from "react-icons/io5";
@@ -52,11 +53,11 @@ export default function Home() {
             <div className="Home-one-content-one">
               <div className="Home-one-content-one-in">
                 <div className="Home-oco-in-one">
-                  <h1>Hello, I&apos;m Tadikonda Sai Manikanta</h1>
+                  <h1>Hello, I&apos;m Pavan Karthik Mandadapu</h1>
                 </div>
                 <div className="Home-oco-in-two">
                   <p>
-                    Tadikonda Sai Manikanta is a Full stack Developer and DevOps
+                    Pavan Karthik Mandadapu is a Full stack Developer and DevOps
                     Engineer, where he drives innovation in cloud technologies
                     and currently third year CS. undergrad.
                   </p>
@@ -112,6 +113,10 @@ export default function Home() {
             </div>
           </div>
         </div>
+
+        <div className="Home-three-three">
+              <ExperienceSection />
+            </div>
 
         <div id="projects" className="Home-four">
           <div className="Home-four-in">

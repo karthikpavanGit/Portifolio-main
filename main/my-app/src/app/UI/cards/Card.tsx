@@ -21,46 +21,31 @@ const Card = () => {
         <div className="HiddenCard"></div>
         <CardComponent
           title={"Student Activity Center"}
-          link={"https://github.com/saitadikonda99/Online-IDE"}
+          link={"https://sac.kluniversity.in"}
           techStack={["next.js", "typescript", "mysql"]}
           image={Nextjs}
         />
-        <CardComponent
-          title={"Cloud IDE"}
-          link={"https://github.com/saitadikonda99/Online-IDE"}
-          techStack={["react", "Node.js"]}
-          image={ReactImg}
-        />
+        
         <CardComponent
           title={"Smart Village Revolution"}
-          link={"https://github.com/saitadikonda99/Online-IDE"}
+          link={"https://sac-svr.vercel.app"}
           techStack={["next.js"]}
           image={Nextjs}
         />
         <CardComponent
           title={"My Portfolio"}
-          link={"https://github.com/saitadikonda99/Online-IDE"}
+          link={"https://pavankarthik.vercel.app"}
           techStack={["next.js"]}
           image={Nextjs}
         />
+        
         <CardComponent
-          title={"Authentication JWT"}
-          link={"https://github.com/saitadikonda99/Online-IDE"}
-          techStack={["react", "Node.js"]}
-          image={ReactImg}
-        />
-        <CardComponent
-          title={"Temple Website"}
-          link={"https://github.com/saitadikonda99/Online-IDE"}
-          techStack={["next.js"]}
-          image={Nextjs}
-        />
-        <CardComponent
-          title={"Online Coding Learning"}
-          link={"https://github.com/saitadikonda99/Online-IDE"}
+          title={"Handloom Store Website"}
+          link={"https://github.com/karthikpavanGit/JFSD-SDP.git"}
           techStack={["react"]}
           image={ReactImg}
         />
+        
         <div className="HiddenCard"></div>
       </div>
     </div>
