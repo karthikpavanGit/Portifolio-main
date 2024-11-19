@@ -28,7 +28,7 @@ const Terminal = () => {
           <div className="About-me-command-in">
             <h1>About Me</h1>
             <p>
-              Tadikonda Sai Manikanta is a Full stack Developer and DevOps
+              Pavan Karthik Mandadapu is a Full stack Developer and DevOps
               Engineer, where he drives innovation in cloud technologies and
               currently third year CS. undergrad.
             </p>
@@ -49,7 +49,7 @@ const Terminal = () => {
             </p>
             <p>
               {" "}
-              <span>• Frameworks:</span> Node, React, Next.js, Gorilla
+              <span>• Frameworks:</span> Node, React, Next.js
             </p>
             <p>
               {" "}
@@ -76,31 +76,23 @@ const Terminal = () => {
             <h1>Link on the project for github repo or Deployment Link</h1>
             <div className="projects-one">
               <p>
-                <a href="https://github.com/saitadikonda99/Online-IDE">
-                  - Online IDE
+                <a href="https://github.com/karthikpavanGit/JFSD-SDP.git">
+                  - Handloom Fashion Store
                 </a>
               </p>
               <p>
                 <a href="http://sac.kluniversity.in">- SAC Website</a>
               </p>
               <p>
-                <a href="https://github.com/saitadikonda99/JWT-Authentication">
-                  - JWT Authentication using Node.js and React
+                <a href="https://sac-svr.vercel.app/">
+                  - Smart Village Revolution Website
                 </a>
               </p>
+
               <p>
-                <a href="https://github.com/saitadikonda99/Sri">
-                  - Temple Website
-                </a>
+                <a href="https://pavankarthik.vercel.app/">- Portfolio</a>
               </p>
-              <p>
-                <a href="">- Portfolio</a>
-              </p>
-              <p>
-                <a href=" https://github.com/saitadikonda99/ZeroOne-Website">
-                  - Online Coding Learning Platform
-                </a>
-              </p>
+              
             </div>
           </div>
         </div>
@@ -113,22 +105,22 @@ const Terminal = () => {
           <div className="Contact-command-in">
             <h1>Contact</h1>
             <p>
-              Phone: <span>+91 9703177577</span>
+              Phone: <span>+91 9502725774</span>
             </p>
             <p>
               <FaLinkedin className="linkedin-icon" />{" "}
-              <a href="https://www.linkedin.com/in/tadikondasaimanikanta/">
+              <a href="https://www.linkedin.com/in/pavankarthikmandadapu/">
                 LikedIn
               </a>{" "}
             </p>
             <p>
               <FaGithub className="github-icon" />{" "}
-              <a href="https://github.com/saitadikonda99">GitHub</a>{" "}
+              <a href="https://github.com/karthikpavanGit">GitHub</a>{" "}
             </p>
             <p>
               Email:{" "}
               <a href="mailto:saitadikonda.cse@gmail.com">
-                saitadikonda.cse@gmail.com
+                pavankarthiktech@gmail.com
               </a>
             </p>
           </div>
