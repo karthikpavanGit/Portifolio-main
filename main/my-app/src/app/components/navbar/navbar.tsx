@@ -49,7 +49,7 @@ const Navbar = () => {
 				<div className="Nav-mobile-one">
 					<div className="Nav-mobile-one-in">
 						<LuMail className='mail-icon' />
-					    <a href="mailto:saitadikonda.cse@gmail.com">saitadikonda.cse@gmail.com</a>
+					    <a href="mailto:saitadikonda.cse@gmail.com">pavankarthiktech@gmail.com</a>
 					</div>
 				</div>
 				<div className="Nav-mobile-two">
