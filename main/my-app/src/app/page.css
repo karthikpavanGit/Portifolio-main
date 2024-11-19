@@ -1,0 +1,241 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-weight: 600;
+}
+
+.HomeComponent {
+  width: 100%;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  letter-spacing: 2px;
+}
+
+.Home-navigator {
+  position: fixed;
+  width: 2%;
+  top: 40%;
+  right: 1%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.Home-navigators {
+  width: 90%;
+  margin: auto;
+  padding: 0.2rem;
+  border-radius: 5px;
+  background-color: rgb(173, 169, 169);
+}
+
+.active-nav {
+  width: 90%;
+  margin: auto;
+  padding: 0.2rem;
+  border-radius: 5px;
+  background-color: rgb(1, 113, 227);
+}
+
+.HomeComponent-in {
+  width: 100%;
+  margin: auto;
+}
+
+.Home-one {
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+.Home-one-in {
+  width: 80%;
+  margin: auto;
+  padding: 1rem 0rem;
+  height: 85vh;
+  display: flex;
+}
+
+.Home-one-content-one {
+  width: 65%;
+  padding: 2rem 0rem;
+  display: flex;
+  align-items: center;
+}
+
+.Home-oco-in-one {
+  padding: 1rem 0rem;
+}
+
+.Home-oco-in-one h1 {
+  font-size: 2.1rem;
+}
+
+.Home-oco-in-two {
+  padding: 0.5rem 0rem;
+}
+
+.Home-oco-in-two p {
+  font-size: 1.3rem;
+  text-align: left;
+  line-height: 2rem;
+  color: rgb(161, 161, 169);
+}
+
+.Home-oco-in-three {
+  width: 100%;
+}
+
+.Home-oco-in-three-in {
+  display: flex;
+  padding: 2rem 0rem;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+.Home-oco-in-three-in a {
+  padding: 0.8rem 1.2rem;
+  text-decoration: none;
+  color: white;
+  background-color: rgb(0, 113, 227);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.Home-oco-in-three-in a:hover {
+  color: white;
+  background-color: rgb(0, 113, 227);
+  color: white;
+}
+
+.Home-one-content-two {
+  width: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Home-one-content-two-in {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Home-one-content-two-in img {
+  width: 100%;
+  height: 100%;
+}
+
+/* --------------- Home-two --------------- */
+
+.Home-two {
+  width: 100%;
+}
+
+.Home-two-in {
+  width: 80%;
+  margin: auto;
+  padding: 4rem 0rem;
+}
+
+.Home-two-one {
+  width: 50%;
+}
+
+.Home-two-one h1 {
+  font-weight: 600;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  padding: 2rem 0rem;
+}
+
+.Home-two-one h1 span {
+  color: rgb(138, 138, 138);
+}
+
+.Home-two-two {
+  width: 100%;
+}
+
+.Home-three {
+  width: 100%;
+  background-color: black;
+}
+
+.Home-three-in {
+  width: 100%;
+  margin: auto;
+  padding: 4rem 0rem;
+}
+
+.Home-three-one {
+  width: 80%;
+  margin: auto;
+}
+
+.Home-three-one-one {
+  width: 50%;
+}
+
+.Home-three-one-one h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: white;
+}
+
+.Home-three-one-one h1 span {
+  color: rgb(138, 138, 138);
+}
+
+.Home-four {
+  width: 100%;
+  padding: 2rem 0rem;
+  height: auto;
+}
+
+.Home-four-in {
+  width: 100%;
+  margin: auto;
+  padding: 2rem 0rem;
+}
+
+.Home-four-one {
+  width: 80%;
+  margin: auto;
+}
+
+.Home-four-one h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.Home-four-one h1 span {
+  color: rgb(138, 138, 138);
+}
+
+@media only screen and (max-width: 768px) {
+  .Home-one-in {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .Home-one-content-one {
+    width: 100% !important;
+    border: 2px solid red;
+    padding: 2rem 0rem;
+  }
+
+  .Home-oco-in-one {
+    width: 100%;
+    border: 2px solid red;
+  }
+}

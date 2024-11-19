@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.NavComponent {
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.NavComponent-in {
+    width: 80%;
+    margin: auto;
+    padding: 4rem 0rem 1rem 0rem;
+    display: flex;
+}
+
+.NavComponent-in-in {
+    min-width: 30%;
+    border-radius: 20px;
+    padding: 1rem;
+    background-color: rgb(39, 39, 42);
+    border: .1px solid rgb(74, 74, 74);
+}
+
+.Navbar-two {
+    width: 100%;
+}
+
+.Navbar-two-in {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Navbar-two-in a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+
+.Navbar-two-in a:hover {
+    color: rgb(1, 113, 227);
+}
+
+.NavComponent-mobile-in {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    border-bottom: 1px solid rgb(138, 138, 138);
+}
+
+.Nav-mobile-one {
+    width: 80%;
+}
+
+.Nav-mobile-one-in {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: .5rem;
+}
+
+.Nav-mobile-one-in a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+
+.Nav-mobile-two {
+    width: 20%;
+}
+
+.Nav-mobile-two-in {
+    width: 100%;
+}
+
+.Nav-icon {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.nav-icon {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.Nav-links {
+    width: 100%;
+    position: absolute;
+    top: 8%;
+    left: 0;
+    background-color: black;
+    animation: moveDown .5s ease-in-out;
+}
+
+@keyframes moveDown {
+    from {
+        top: -10%;
+    }
+    to {
+        top: 8%;
+    }
+}
+
+.Nav-links a {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+.NavComponent-in-hide {
+    display: none;
+}
+
+.NavComponent-mobile-in-hide {
+    display: none;
+}
+
+.Nav-links-hide {
+    display: none;
+}

@@ -1,0 +1,98 @@
+.SkillComponent {
+    width: 100%;
+}
+
+.SkillComponent-in {
+    width: 100%;
+    padding: 4rem 0rem 1rem 0rem;
+    display: flex;
+    overflow: scroll
+}
+
+.SkillComponent-in::-webkit-scrollbar {
+    display: none;
+}
+
+.HiddenSkill {
+    flex: 0 0 8%;
+    background-color: black;
+}
+
+.Skill {
+    flex: 0 0 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.skill-icon {
+    font-size: 4rem;
+}
+
+.skill-icon-react {
+    color: rgb(0, 145, 255);
+}
+
+.skill-icon-node {
+    color: green;
+}
+
+.skill-icon-next {
+    color: rgb(138, 138, 138);
+}
+
+.skill-icon-docker {
+    color: rgb(0, 145, 255);
+}
+
+.skill-icon-golang {
+    color: rgb(0, 145, 255);
+}
+
+.skill-icon-java {
+    color: rgb(239, 96, 29);
+}
+
+.skill-icon-javascript {
+    color: rgb(255, 238, 0);
+}
+
+.skill-icon-typescript {
+    color: rgb(0, 122, 204);
+}
+
+.skill-icon-html {
+    color: rgb(239, 96, 29);
+}
+
+.skill-icon-css {
+    color: rgb(0, 122, 204);
+}
+
+.skill-icon-kubernetes {
+    color: rgb(0, 145, 255);
+}
+
+.skill-icon-git {
+    color: rgb(239, 96, 29);
+}
+.skill-icon-mysql {
+    color: white;
+}
+
+.Skill-one {
+    width: 100%;
+}
+
+.Skill-two {
+    width: 100%;
+    text-align: center;
+}
+
+.Skill-two p {
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 1rem 0rem;
+    color: white;
+}

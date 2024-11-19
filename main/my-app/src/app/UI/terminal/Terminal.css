@@ -1,0 +1,155 @@
+@font-face {
+  font-family: "Monaco";
+  src: url("../../Fonts/Monaco.woff") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.TerminalComponent {
+  width: 100%;
+  margin: auto;
+  height: 80vh;
+  font-family: "Monaco" monospace;
+}
+
+.help-command {
+  color: white;
+  padding: 1rem;
+}
+
+.help-command-in {
+  border: 2px solid white;
+  border-style: dashed;
+  padding: 1rem;
+}
+
+.help-command h1 {
+  font-size: 1rem;
+  padding: 1rem;
+  color: rgb(87, 191, 55);
+}
+
+.help-command p {
+  color: rgb(227, 65, 36);
+  padding: 0.5rem;
+  padding-left: 1rem;
+}
+
+.About-me-command {
+  color: white;
+  padding: 1rem;
+}
+
+.About-me-command-in {
+  padding: 1rem;
+  border: 2px solid white;
+  border-style: dashed;
+}
+
+.About-me-command-in h1 {
+  font-size: 1.2rem;
+  color: rgb(215, 222, 26);
+}
+
+.About-me-command p {
+  font-size: 1rem;
+  padding: 1rem;
+  color: rgb(87, 191, 55);
+}
+
+.Skills-command {
+  color: white;
+  padding: 1rem;
+}
+
+.Skills-command-in {
+  padding: 1rem;
+  border: 2px solid white;
+  border-style: dashed;
+}
+
+.Skills-command-in h1 {
+  font-size: 1.2rem;
+  color: rgb(215, 222, 26);
+}
+
+.Skills-command-in p {
+  font-size: 1rem;
+  padding: 1rem 1rem;
+}
+
+.Skills-command-in p span {
+  color: rgb(227, 65, 36);
+}
+
+.Contact-command {
+  color: white;
+  padding: 1rem;
+}
+
+.Contact-command-in {
+  padding: 1rem;
+  border: 2px solid white;
+  border-style: dashed;
+}
+
+.Contact-command-in h1 {
+  font-size: 1.2rem;
+  color: rgb(215, 222, 26);
+}
+
+.Contact-command p {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  color: rgb(87, 191, 55);
+}
+
+.Contact-command span {
+  color: white;
+}
+
+.linkedin-icon {
+  color: white;
+}
+
+.github-icon {
+  color: white;
+}
+
+.Projects-command {
+  color: white;
+  padding: 1rem;
+}
+
+.Projects-command-in {
+  padding: 1rem;
+  border: 2px solid white;
+  border-style: dashed;
+}
+
+.Projects-command-in h1 {
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  color: rgb(215, 222, 26);
+}
+
+.projects-one {
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.projects-one p {
+  font-size: 1rem;
+  padding: 1rem;
+  color: rgb(87, 191, 55);
+}
+
+.projects-one p a {
+  color: white;
+  text-decoration: none;
+}
+
+.projects-one p a:hover {
+  color: rgb(37, 37, 224);
+}

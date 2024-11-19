@@ -1,0 +1,137 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.BlogComponent {
+  width: 100%;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.BlogComponent-in {
+  width: 100%;
+}
+
+.Blog-one {
+  width: 100%;
+  background-color: rgb(245, 245, 247);
+}
+
+.Blog-one-in {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Blog-one-one h1 {
+  font-size: 2.5rem;
+  color: black;
+}
+
+.Blog-two-two a {
+  text-decoration: none;
+  color: black;
+}
+
+.Blog-two-two a:hover {
+  color: rgb(0, 113, 227);
+}
+
+.Blog-two {
+  width: 100%;
+}
+
+.Blog-two-in {
+  width: 98%;
+  margin: auto;
+  padding: 1rem 0rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 0.8rem;
+}
+
+.Blog-card {
+  width: 49.6%;
+}
+
+.BC-one {
+  width: 100%;
+  padding: 2rem 0rem 1rem 0rem;
+  text-align: center;
+}
+
+.BC-one h1 {
+  font-size: 2.2rem;
+  color: white;
+  padding: 0.5rem;
+}
+
+.BC-one p {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.BC-two {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.BC-three {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 0rem;
+}
+
+.Read-button button {
+  background-color: rgb(0, 113, 227);
+  color: white;
+  font-size: 1rem;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+}
+
+.Follow-button button {
+  background-color: transparent;
+  color: rgb(0, 113, 227);
+  font-size: 1rem;
+  border: 1px solid #0071e3;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+}
+
+.Follow-button button:hover {
+  background-color: rgb(0, 113, 227);
+  color: white;
+}
+
+.blog-card-one {
+  background-color: black;
+}
+
+.blog-card-two {
+  background-color: rgb(245, 245, 247);
+}
+
+.blog-card-two h1 {
+  color: black;
+}
+
+.blog-card-two p {
+  color: black;
+}
+
+.Blog-footer {
+  width: 100%;
+}

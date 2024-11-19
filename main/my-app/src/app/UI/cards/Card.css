@@ -1,0 +1,129 @@
+.CardComponent {
+    width: 100%;
+}
+
+.CardComponent-in {
+    width: 100%;
+    padding: 2rem 0rem;
+    display: flex;
+    overflow: scroll;
+    gap: 1rem;
+}
+
+.CardComponent-in::-webkit-scrollbar {
+    display: none;
+}
+
+.HiddenCard {
+    flex: 0 0 9%;
+    background-color: white;
+    height: fit-content;
+}
+
+.card {
+    flex: 0 0 28%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 20px;
+    height: fit-content;
+}
+
+.card-in {
+    width: 100%;
+    padding: 2rem;
+}
+
+
+.card-one {
+    width: 100%;
+}
+
+.card-one-in {
+    width: 100%;
+    padding: .5rem 0rem;
+}
+
+.card-one-in h1 {
+    font-size: 1.2rem;
+}
+
+.card-two {
+    width: 100%;
+}
+
+.card-two-in {
+    width: 100%;
+    padding: .5rem 0rem 0rem 0rem;
+}
+
+.card-two-in p {
+    font-size: 1rem;
+    color: rgb(138, 138, 138);
+}
+
+.tech-stack {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: .5rem 0rem 0rem 0rem;
+    gap: .5rem;
+    height: 5vh;
+}
+
+.project-icon-react {
+    font-size: 1.5rem;
+    color: rgb(0, 145, 255);
+}
+
+.project-icon-node {
+    font-size: 2rem;
+    color: green;
+}
+
+.project-icon-next {
+    font-size: 1.5rem;
+    color: black;
+}
+
+.project-icon-mysql {
+    font-size: 1.5rem;
+    color: rgb(0, 145, 255);
+}
+
+.project-icon-ts {
+    font-size: 1.2rem;
+    color: rgb(0, 145, 255);
+}
+
+.card-three {
+    width: 100%;
+}
+
+.card-three-in {
+    width: 100%;
+    padding: .5rem 0rem;
+    display: flex;
+}
+
+.card-three-in p {
+    font-size: 1rem;
+}
+
+.card-three-in a {
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.card-four {
+    width: 100%;
+}
+
+.card-four-in {
+    width: 100%;
+    padding: 1rem 0rem;
+}
+
+.card-four-in img {
+    width: 100%;
+    height: 100%;
+}
