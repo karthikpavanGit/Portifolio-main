@@ -68,7 +68,7 @@ export default function Home() {
                       Know more <FaArrowDown />{" "}
                     </Link>
                     <Link
-                      href="https://drive.google.com/file/d/1aicpA2vFOImx7Ri7dOG9cjZK8HtgRdJ9/view?usp=sharing"
+                      href="https://drive.google.com/file/d/1OXvoOB_hCk82oruHrZ5oSoybacsd7TUW/view?usp=sharing"
                       target="_blank"
                     >
                       Resume <IoDocumentTextOutline />{" "}
@@ -131,7 +131,7 @@ export default function Home() {
           </div>
         </div>
 
-        <Youtube />
+        
 
         <div className="Footer">
           <Footer />

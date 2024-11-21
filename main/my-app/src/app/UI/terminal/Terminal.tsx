@@ -44,12 +44,15 @@ const Terminal = () => {
             <h1>Skills</h1>
             <p>
               {" "}
-              <span>• Languages:</span> Java, JavaScript, TypeScript, C, Go,
-              Python
+              <span>• Languages:</span> C, Java, JavaScript, Python
             </p>
             <p>
               {" "}
-              <span>• Frameworks:</span> Node, React, Next.js
+              <span>•Frontend Frameworks:</span> React JS, Next.js, JavaScript, HTML, CSS
+            </p>
+            <p>
+              {" "}
+              <span>Backend Technologies:</span> Express, Node.js 
             </p>
             <p>
               {" "}
@@ -57,11 +60,11 @@ const Terminal = () => {
             </p>
             <p>
               {" "}
-              <span>• Tools:</span> Kubernetes, Docker, GIT
+              <span>• Tools:</span> Git (version control),  Linux.
             </p>
             <p>
               {" "}
-              <span>• Platforms</span> AWS, Linux, Unix based systems
+              <span>• Specailty</span> Experienced in Automation tasks, particularly adept in Microsoft Power Automate.
             </p>
           </div>
         </div>

@@ -2,7 +2,7 @@ import React from "react";
 import "../Experience/page.css";
 
 // Import logos
-import SACLogo from "/home/pavan_karthik/Portifolio-main/main/my-app/src/app/assets/SAC.png"; // Path to KLU SAC logo
+import SACLogo from "../../assets/SAC.png"; // Path to KLU SAC logo
  // Path to ZeroOne Code Club logo
 
 // Experience data with logo paths
